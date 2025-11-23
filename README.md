@@ -1,123 +1,107 @@
-🧠 AI Resume Evaluator
+# 🧠 AI Resume Evaluator
 
 A modern web application that analyzes resumes using AI and provides structured feedback to improve clarity, skills, content, and overall professional impact.
 
-This project is enhanced by Devansh Rai with code improvements, UI polishing, documentation updates, and better error handling.
+This project is enhanced by **Devansh Rai** with UI refinements, cleaner code structure, improved validation, and better documentation—making it polished and recruiter-ready.
 
-✨ Features
+---
 
-Upload resumes in PDF format
+## ✨ Features
+- Upload resumes in **PDF format**
+- AI-powered resume evaluation
+- Section-wise feedback (Skills, Experience, Formatting, etc.)
+- Smooth and fast UI built with **React + Vite**
+- Clean, modern, and responsive design
+- Client-side file processing
+- Smart validation and error messages
 
-AI-powered resume evaluation
+---
 
-Section-wise feedback (Skills, Experience, Formatting, etc.)
+## 🛠️ Enhancements by Me
+### 🔧 Code Improvements
+- Improved file validation logic  
+- Added clear error handling  
+- Refactored and cleaned up components  
+- Added helpful comments throughout code  
+- Removed unused blocks and optimized structure  
 
-Fast & smooth UI (React + Vite)
+### 🎨 UI/UX Improvements
+- Better spacing, color balance, and layout  
+- Clean typography and improved readability  
+- Updated branding and screen hierarchy  
+- Added footer and consistency fixes  
 
-Clean and responsive design
+### 📘 Documentation Improvements
+- Fully rewritten README  
+- Added setup steps + folder structure  
+- Added feature descriptions  
+- Added roadmap for future additions  
 
-Client-side file processing
+---
 
-Smart validation and error handling
+## 📂 Folder Structure
 
-🛠️ Enhancements by Me
-Code Improvements
-
-Improved file validation logic
-
-Clear error messages
-
-Refactored components
-
-Added explanatory comments
-
-Removed unnecessary code
-
-UI/UX Improvements
-
-Better alignment and spacing
-
-Clean typography
-
-Updated branding and layout
-
-Added footer and consistency improvements
-
-Documentation Improvements
-
-Rewrote README for clarity
-
-Added setup steps
-
-Added features and contribution details
-
-Added future roadmap
-
-📂 Folder Structure
 AI-Resume-Evaluator/
 │── public/
 │── src/
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   ├── hooks/
-│   └── styles/
+│ ├── components/
+│ ├── pages/
+│ ├── utils/
+│ ├── hooks/
+│ └── styles/
 │── assets/
 │── package.json
 │── README.md
 
-🧰 Tech Stack
 
-React + Vite
+---
 
-TailwindCSS
+## 🧰 Tech Stack
+- React + Vite  
+- TailwindCSS  
+- JavaScript (ES6+)  
+- Puter API / AI API  
+- PDF parsing utilities
 
-JavaScript (ES6+)
+---
 
-PDF parsing utilities
-
-Puter API / AI API
-
-🚀 Setup Instructions
 # Clone repository
-git clone https://github.com/your-username/AI-Resume-Evaluator.git
+git clone https://github.com/Firebolthp/AI-Resume-Evaluator.git
 
-# Open folder
+# Open the project folder
 cd AI-Resume-Evaluator
 
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 
-📜 Usage
 
-Upload a resume (PDF only)
+---
 
-Let the AI analyze it
+## 📜 Usage
+1. Upload a resume in **PDF format**  
+2. Wait for the AI to analyze it  
+3. View well-structured, section-wise feedback  
+4. Improve your resume based on the suggestions  
 
-View structured feedback
+---
 
-Improve your resume based on suggestions
+## 🔮 Future Enhancements
+- ATS Score calculator  
+- Resume templates  
+- Multi-language support  
+- Downloadable feedback report  
+- AI keyword optimization  
 
-🔮 Future Enhancements
+---
 
-ATS score calculation
-
-Resume templates
-
-Multi-language support
-
-Downloadable AI feedback report
-
-Enhanced keyword analysis
-
-🤝 Contributing
-
-Contributions and suggestions are welcome.
+## 🤝 Contributing
+Contributions and suggestions are welcome.  
 Feel free to open an issue or submit a pull request.
 
-⭐ Support
+---
 
-If you find this project helpful, consider giving it a star on GitHub!
+## ⭐ Support
+If you find this project useful, please consider giving it a ⭐ on GitHub!
