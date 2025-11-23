@@ -44,11 +44,11 @@ This project is enhanced by **Devansh Rai** with UI refinements, cleaner code st
 AI-Resume-Evaluator/
 │── public/
 │── src/
-│ ├── components/
-│ ├── pages/
-│ ├── utils/
-│ ├── hooks/
-│ └── styles/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── hooks/
+│   └── styles/
 │── assets/
 │── package.json
 │── README.md
