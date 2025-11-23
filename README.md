@@ -53,7 +53,6 @@ AI-Resume-Evaluator/
 │── package.json
 │── README.md
 
-
 ---
 
 ## 🧰 Tech Stack
