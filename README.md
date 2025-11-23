@@ -41,6 +41,7 @@ This project is enhanced by **Devansh Rai** with UI refinements, cleaner code st
 
 ## 📂 Folder Structure
 
+<pre>
 AI-Resume-Evaluator/
 │── public/
 │── src/
@@ -52,6 +53,8 @@ AI-Resume-Evaluator/
 │── assets/
 │── package.json
 │── README.md
+</pre>
+
 
 ---
 
