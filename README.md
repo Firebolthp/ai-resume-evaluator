@@ -1,65 +1,123 @@
-# 🧠 AI Resume Evaluator  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+🧠 AI Resume Evaluator
 
-A modern web application that analyzes resumes using AI and provides structured feedback for improving content, clarity, and overall impact.
+A modern web application that analyzes resumes using AI and provides structured feedback to improve clarity, skills, content, and overall professional impact.
 
-This project is customized and enhanced by **Devansh Rai** with additional improvements, documentation, UI refinements, and better error handling to make it interview-ready and user-friendly.
+This project is enhanced by Devansh Rai with code improvements, UI polishing, documentation updates, and better error handling.
 
----
+✨ Features
 
-## 🚀 Live Demo  
-Coming Soon (Will deploy with Vercel)
+Upload resumes in PDF format
 
----
+AI-powered resume evaluation
 
-## ✨ Features  
-- 📄 **Upload resumes in PDF format**  
-- 🤖 **AI-powered resume evaluation**  
-- 🧩 **Section-wise feedback** (Skills, Experience, Formatting, etc.)  
-- ⚡ **Fast UX with React + Vite**  
-- 🎨 **Clean and responsive UI**  
-- 🗂 **Client-side file processing**  
+Section-wise feedback (Skills, Experience, Formatting, etc.)
 
----
+Fast & smooth UI (React + Vite)
 
-## 🛠️ My Improvements & Enhancements  
-To show real contribution, I made several updates:
+Clean and responsive design
 
-### 🔧 Code Enhancements  
-- Improved file upload validation  
-- Better error handling for incorrect files  
-- Added comments to explain major components  
-- Minor UI/UX improvements for better readability  
-- Cleaned unnecessary code blocks & folders  
+Client-side file processing
 
-### 📝 Documentation Improvements  
-- Rewrote the README for clarity  
-- Added setup instructions  
-- Added screenshots section  
-- Added future improvements section  
+Smart validation and error handling
 
-### 🎨 UI Improvements  
-- Updated title and branding  
-- Added footer section  
-- Improved spacing & consistency  
+🛠️ Enhancements by Me
+Code Improvements
 
-These changes help demonstrate real involvement and understanding.
+Improved file validation logic
 
----
+Clear error messages
 
-## 📸 Screenshots
+Refactored components
 
-### 🏠 Home Page  
-(Add screenshot here)
+Added explanatory comments
 
-### 📤 Upload Resume  
-(Add screenshot here)
+Removed unnecessary code
 
-### 📊 Feedback Page  
-(Add screenshot here)
+UI/UX Improvements
 
-Create a folder at:  
+Better alignment and spacing
+
+Clean typography
+
+Updated branding and layout
+
+Added footer and consistency improvements
+
+Documentation Improvements
+
+Rewrote README for clarity
+
+Added setup steps
+
+Added features and contribution details
+
+Added future roadmap
+
+📂 Folder Structure
+AI-Resume-Evaluator/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── hooks/
+│   └── styles/
+│── assets/
+│── package.json
+│── README.md
+
+🧰 Tech Stack
+
+React + Vite
+
+TailwindCSS
+
+JavaScript (ES6+)
+
+PDF parsing utilities
+
+Puter API / AI API
+
+🚀 Setup Instructions
+# Clone repository
+git clone https://github.com/your-username/AI-Resume-Evaluator.git
+
+# Open folder
+cd AI-Resume-Evaluator
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+📜 Usage
+
+Upload a resume (PDF only)
+
+Let the AI analyze it
+
+View structured feedback
+
+Improve your resume based on suggestions
+
+🔮 Future Enhancements
+
+ATS score calculation
+
+Resume templates
+
+Multi-language support
+
+Downloadable AI feedback report
+
+Enhanced keyword analysis
+
+🤝 Contributing
+
+Contributions and suggestions are welcome.
+Feel free to open an issue or submit a pull request.
+
+⭐ Support
+
+If you find this project helpful, consider giving it a star on GitHub!
