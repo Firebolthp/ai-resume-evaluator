@@ -1,18 +1,23 @@
-import { Navigate, Outlet } from "react-router";
-import { usePuterStore } from "~/lib/puter";
+import puter from "puter";
 
-export default function AuthGuard() {
-  const { puterReady, isLoading, auth } = usePuterStore();
+export default function Auth() {
+  const handleLogin = async () => {
+    try {
+      const user = await puter.auth.signIn(); // ✅ NO embedded popup
+      console.log("User logged in:", user);
+    } catch (err) {
+      console.error("Login failed", err);
+    }
+  };
 
-  // Still initializing Puter
-  if (!puterReady || isLoading) {
-    return <div className="p-6">Loading...</div>;
-  }
-
-  // Not authenticated → redirect
-  if (!auth.isAuthenticated) {
-    return <Navigate to="/auth" replace />;
-  }
-
-  return <Outlet />;
+  return (
+    <div className="h-screen flex items-center justify-center">
+      <button
+        onClick={handleLogin}
+        className="px-6 py-3 bg-black text-white rounded-lg"
+      >
+        Sign in with Puter
+      </button>
+    </div>
+  );
 }
